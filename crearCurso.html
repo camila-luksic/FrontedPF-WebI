@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyecto Final Admin</title>
+        <link rel="stylesheet" href="crearCurso.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    </head>
+    <body>
+        <div class="contenedorExterno">
+            <div class="contenedorInterno">
+                <div class="barrita">
+                    <header class="header">
+                        <h2 class="logo" >Remy's Ratatouille Adventure</h2>
+            
+                    </header>
+                </div>
+                <form  onsubmit ="return agregarCurso(event)" enctype="multipart/form-data">
+                    <fieldset id="field">
+                        <legend class="legend">Nuevo Curso</legend> 
+                        <div class="cursoId">
+                            <label>ID del Curso:</label>
+                            <input type="text" id="idCurso" required>
+
+                        </div>
+                       
+                        
+                        <div class="cursoNombre">   
+                        <label>Nombre del Curso:</label>
+                        <input type="text" id="nombreCurso" required >
+                        </div>
+                        <div class="categoriaNombre">   
+                            <label>Categoria del Curso:</label>
+                            <input type="text" id="categoria" required >
+                        </div>
+        
+                        <div class="cursoImg">
+                            <label>Seleccione la Imagen de Portada:</label>
+                        </div>
+                        <div class="file">
+                            <input type="file" id="imgCurso" name="image" >
+        
+                        </div>
+                       <div class="cursoDescripcion">
+                        <label>Ingrese la Descripcion:</label>
+                        <input type="text" id="descripcionCurso" required>
+                       </div>  
+                    </fieldset> 
+                    <button type="submit" id="button">Agregar Curso</button>
+             </form>
+            </div>
+        </div>
+        <script src="unionCurso.js"></script>
+    </body>
+</html>
+
+

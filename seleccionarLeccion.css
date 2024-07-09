@@ -1,0 +1,693 @@
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+  
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 10px 0;
+    position: relative;
+}
+
+
+details details summary {
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+details ul {
+    margin-left: 40px;
+    list-style-type: disc;
+}
+
+#curso-preview{
+    width:100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 100px;
+}
+
+.indice{
+    background-color: #CDE8E5;
+    padding: 30px 30px 410px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#button{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button:hover {
+    background-color:#219C90;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#button2{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button2:hover {
+    background-color:#219C90;
+}
+
+.class_container{
+    background-color:  #CDE8E5;
+}
+
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="file"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color:#4D869C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #219C90;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: #ddd;
+}
+
+@media screen and(min-width:760px) {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+  
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 10px 0;
+    position: relative;
+}
+
+
+details details summary {
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+details ul {
+    margin-left: 40px;
+    list-style-type: disc;
+}
+
+#curso-preview{
+    width:100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 100px;
+}
+
+.indice{
+    background-color: #CDE8E5;
+    padding: 30px 30px 410px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#button{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button:hover {
+    background-color:#219C90;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#button2{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button2:hover {
+    background-color:#219C90;
+}
+
+.class_container{
+    background-color:  #CDE8E5;
+}
+
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+}
+}
+@media screen and(max-width:1400px) {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+  
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 10px 0;
+    position: relative;
+}
+
+
+details details summary {
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+details ul {
+    margin-left: 40px;
+    list-style-type: disc;
+}
+
+#curso-preview{
+    width:100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 100px;
+}
+
+.indice{
+    background-color: #CDE8E5;
+    padding: 30px 30px 410px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#button{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button:hover {
+    background-color:#219C90;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#button2{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+    margin-top: 10px;
+}
+#button2:hover {
+    background-color:#219C90;
+}
+
+.class_container{
+    background-color:  #CDE8E5;
+}
+
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+}
+
+}
+

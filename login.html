@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyecto Final</title>
+        <link rel="stylesheet" href="login.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="contenedorExterno">
+            <div class="contenedorInterno">
+                <img src="userPF.webp" alt="logo" id="logo">
+                <div class="datos">
+                    <h2 class="title"> Registrarse</h2>
+                    <form action="/usuarios" method="post">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre " required>
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido " required>
+                        <input type="text" id="email" name="email" placeholder="Email" required>
+                        <input type="password" id="pass" name="password" placeholder="Contraseña" required>
+                        <h2 class="rolcito">Tipo de Cuenta:</h2>
+                        <input type="radio" id="rolAdmin" name="rol" value="Administrador" required >
+                        <label for="rolAdmin">Admnistrador</label>
+                        <input type="radio" id="rolUs"  name="rol" value="Usuario" required >
+                        <label for="rolUs">Usuario</label>
+                      
+                            
+                         <button type="button" id="button" onclick="agregarUsuario()">Crear Cuenta</button>
+    
+                       
+
+                    </form>
+                   
+                </div>
+
+            </div>
+
+        </div>  
+       <script src="union.js"></script> 
+       <script src="home.js"></script>
+    </body>
+</html>

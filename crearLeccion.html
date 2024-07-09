@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyecto Final Admin</title>
+        <link rel="stylesheet" href="crearLeccion.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    </head>
+    <body>
+        <div class="contenedorExterno">
+            <div class="contenedorInterno">
+                <div class="barrita">
+                    <header class="header">
+                        <h2 class="logo" >Remy's Ratatouille Adventure</h2>
+                    </header>
+                </div>
+
+                <fieldset id="field">
+                  <legend class="legend">Nueva Leccion</legend> 
+                  <div class="id">
+                     <label>ID de la Leccion:</label>
+                     <input type="text" id="idLeccion" required >
+                  </div>
+                 <div class="cursoLeccion">   
+                     <label>Nombre de la Leccion:</label>
+                      <input type="text" id="nombreLeccion" required>
+                  </div>
+
+                  <div class="cursoVideo">
+                      <label>Ingrese el link:</label>
+                     <input type="text" id="cursoLink"required>
+                   </div>
+                   <div class="botones">
+                          <button type="submit" id="add" onclick="agregarLeccion()">Agregar más lecciones</button>
+                     
+                         <button type="submit" id="ok" onclick="agregarLeccionFinal()">OK</button>      
+                       
+                   </div>
+                </fieldset>
+               
+
+
+            </div>
+        </div>
+        <script src="unionLeccion.js"></script>
+    </body>
+</html>
+
+

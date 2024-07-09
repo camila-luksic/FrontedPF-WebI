@@ -1,0 +1,358 @@
+
+  
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+  
+#logo{
+   max-width: 40%;
+    margin-top: 8px;
+    margin-left: 250px;
+    height: 400px;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 60px;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CDE8E5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+   
+}
+#nombre{
+    height: 50px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#apellido{
+    height: 50px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#email{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#button{
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    height: 50px;
+    margin-left: 32%;
+    border: #4D869C;
+    margin-top: 30px;
+    
+}
+#button:hover {
+    background-color:#219C90;
+}
+    
+
+@media screen and (max-width: 768px)  {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+  
+#logo{
+   max-width: 40%;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 35%;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CDE8E5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+   
+}
+#nombre{
+    height: 50px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+
+#email{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#button{
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    height: 50px;
+    margin-left: 32%;
+    border: #4D869C;
+    
+}
+#button:hover {
+    background-color:#219C90;
+}
+    
+}
+@media screen and (min-width: 1400px)  {
+        
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+  
+#logo{
+   max-width: 40%;
+    margin-top: 1px;
+    margin-left: 400px;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 35%;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CDE8E5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+  
+   
+}
+#nombre{
+    height: 50px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  
+
+}
+
+#email{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#button{
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    height: 50px;
+    margin-left: 32%;
+    border: #4D869C;
+    
+}
+#button:hover {
+    background-color:#219C90;
+}
+    
+}
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+  
+
+
+#logo{
+    width: 100%;
+    margin-top: 20%;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 35%;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CDE8E5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+   
+}
+#nombre{
+    height: 50px;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#email{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#pass{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#button{
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    height: 50px;
+    margin-left: 32%;
+    border: #4D869C;
+    
+}
+#button:hover {
+    background-color:#219C90;
+}
+
+.rolcito{
+    
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

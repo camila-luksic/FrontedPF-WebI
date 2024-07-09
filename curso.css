@@ -1,0 +1,266 @@
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    width: 100%;
+   
+}
+
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+
+}
+#curso-preview{
+    width:100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 400px;
+}
+#cursos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #edf2fb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#cursos-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+#cursos-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+#cursos-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#button{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    margin-left: 250px;
+    border: #4D869C;
+    margin-bottom: 10%;
+    padding: 30 30 30 30;
+}
+#button:hover {
+    background-color:#219C90;
+}
+.class_container{
+    background-color: #CDE8E5;
+    
+    min-height: 100vh; 
+    
+}
+
+.indice{
+    background-color: #CDE8E5;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1400px)  {
+    
+    .contenedorExterno{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    }
+      
+    .contenedorInterno {
+        max-width: calc(100% - 35px); 
+       
+    }
+    #curso-preview{
+        width:100%;
+        height: 480px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    #button{
+        
+        background-color:#4D869C;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 200;
+        width: 400px;
+        color: white;
+        height: 50px;
+        margin-left: 22%;
+        border: #4D869C;
+        margin-bottom: 5%;
+        padding: 30 30 30 30;
+    }
+    #button:hover {
+        background-color:#219C90;
+    }
+    .class_container{
+        background-color:white;
+        border: solid;
+        border-color: #edf2fb;
+        border-radius: 10px;
+        padding: 60px;
+    }
+    
+    .indice{
+        background-color:white;
+        border: solid;
+        border-color: #edf2fb;
+        border-radius: 10px;
+        padding: 60px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+    .tittle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+    
+    
+@media screen and (min-width: 1400px)  {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+#curso-preview{
+    width:100%;
+    height: 480px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#button{
+    
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 400px;
+    color: white;
+    height: 50px;
+    margin-left: 430px;
+    border: #4D869C;
+    margin-bottom: 5%;
+    padding: 30 30 30 30;
+}
+#button:hover {
+    background-color:#219C90;
+}
+.class_container{
+    background-color:white;
+    padding: 60px;
+}
+
+.indice{
+    background-color:#CDE8E5;
+    border-radius: 10px;
+    padding: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+

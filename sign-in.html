@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyecto Final</title>
+        <link rel="stylesheet" href="sign-in.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="contenedorExterno">
+            <div class="contenedorInterno">
+                <img src="userPF.webp" alt="logo" id="logo">
+                <div class="datos">
+                    <h2 class="title">Iniciar Sesion</h2>
+                        <input type="text" id="email"  name="email" placeholder="Email">
+                        <input type="password" id="pass" name="pass" placeholder="Contraseña">
+                        <h2 class="rolcito">Tipo de Cuenta:</h2>
+                        <div class="roles">
+                            <input type="radio" id="rolAdmin" name="rol" value="Administrador" required >
+                            <label for="rolAdmin">Admnistrador</label>
+                            <input type="radio" id="rolUs"  name="rol" value="Usuario" required >
+                            <label for="rolUs">Usuario</label>
+
+                        </div>
+                      
+                      
+                        
+                        <div class="botones">
+                            
+                             <button type="submit" id="button" onclick="handleLogin()">Ingresar</button>
+                           
+            
+                           
+                             <button  id="button2" onclick="crearUser()"> ¿No tienes una cuenta? </button>
+                           
+                        </div>
+                      
+                        
+                   
+                   
+                   
+                    
+
+                </div>
+
+            </div>
+
+        </div>  
+        <script src="unionUsuario.js"></script>
+        <script src="utils.js"></script>
+    </body>
+</html>

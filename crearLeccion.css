@@ -1,0 +1,400 @@
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 35px); 
+   
+}
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.id{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#idLeccion{
+    width: 320px;
+    height: 40px; 
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#add{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 120px;
+    border-color: #b6d9d9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#ok{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-color: #b6d9d9;
+
+}
+@media screen and (max-width:768px) {
+    .contenedorExterno{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    }
+      
+    .contenedorInterno {
+       width: 100%;
+       
+    }
+    
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+    height: 740px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#add{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 120px;
+    border-color: #b6d9d9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#ok{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-color: #b6d9d9;
+
+}
+}
+    
+@media  screen and (min-width:1400px) {
+    .contenedorExterno{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    }
+      
+    .contenedorInterno {
+       width: 100%;
+       
+    }
+    
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.legend{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: black;
+}
+.cursoLeccion{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+
+}
+#nombreLeccion{
+    width: 320px;
+    height: 40px;
+}
+.cursoVideo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+}
+.file{
+    width: 820px;
+    height: 40px;
+    font-size: 80px;
+    border: solid;
+    padding: 60px;
+}
+#cursoLink{
+    width: 320px;
+    height: 40px;
+}
+
+#field{
+    background-color:#4D869C;
+    width: 97%; 
+    height: 740px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#add{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 120px;
+    border-color: #b6d9d9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#ok{
+    padding: 20px;
+    background-color: #b6d9d9;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-color: #b6d9d9;
+
+}
+}

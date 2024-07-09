@@ -1,0 +1,366 @@
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 15px); 
+   
+}
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+
+}
+.explore{
+    color: #4D869C;
+    margin-left: 400px;
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 800px;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+
+.curso-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curso-item img {
+    display: block;
+    margin: 8px 0;
+    max-width: 100%;
+    height: auto;
+    margin-left: 250px;
+}
+.curso-title {
+    
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.curso-title:hover {
+    text-decoration: underline;
+}
+.title_curso{
+    color: white;
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img5{
+    margin-left: 0px;
+    width: 100%;
+    max-height: 400px;
+}
+#search{
+   padding: 10px;
+   font-size: 15px;
+   margin-left: 5px;
+}
+
+@media screen and (max-width:768px) {
+
+ .contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+      
+.contenedorInterno {
+ max-width: calc(100% - 15px); 
+       
+}
+ .barrita{
+    background-color:#b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;   
+        
+}
+       
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+       
+}
+    
+    
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;   
+       
+}
+    
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+    
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+    
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+    
+}
+    
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 800px;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+       
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+    
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+ 
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#search{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+}
+@media screen and (min-width: 1400px) {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 15px); 
+   
+}
+.barrita{
+    background-color:#b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 800px;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#search{
+   padding: 10px;
+   font-size: 15px;
+   margin-left: 5px;
+}
+
+}

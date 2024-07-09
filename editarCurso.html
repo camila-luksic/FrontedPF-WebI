@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Proyecto Final Admin</title>
+    <link rel="stylesheet" href="editarCurso.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="contenedorExterno">
+        <div class="contenedorInterno">
+            <div class="barrita">
+                <header class="header">
+                    <h2 class="logo">Remy's Ratatouille Adventure</h2>
+
+                </header>
+            </div>
+            
+
+            <div class="indice">
+                <h2 class="title">Editar Curso</h2>
+                <form id="editar-curso-form" onsubmit="return editarCurso(event)">
+                    <fieldset id="field">
+                        <legend class="legend"></legend>
+                        <div class="cursoLeccion">
+                            <label>Nuevo nombre del Curso:</label>
+                            <input type="text" id="nombreCurso">
+                        </div>
+
+                        <div class="cursoImg">
+                            <label>Seleccione la nueva Imagen de Portada:</label>
+                        </div>
+                        <div class="file">
+                            <input type="file" id="imgCurso">
+
+                        </div>
+                        <div class="cursoDescripcion">
+                            <label>Ingrese la nueva Descripcion:</label>
+                            <input type="text" id="descripcionCurso">
+                        </div>
+                        <div class="cursocat">
+                            <label>Ingrese la nueva Categoria:</label>
+                            <input type="text" id="catCurso">
+                        </div>
+
+
+                        <button type="submit"  id="ok" >OK</button>
+
+
+
+
+                    </fieldset>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="editarCurso.js"></script>
+</body>
+
+</html>

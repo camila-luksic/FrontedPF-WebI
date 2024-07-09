@@ -1,0 +1,393 @@
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 15px); 
+   
+}
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color:#4D869C;
+    padding: 10px 20px;
+
+
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 800px;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img5{
+    margin-left: 0px;
+    width: 100%;
+    max-height: 400px;
+}
+#banner{
+    width: 100%;
+    margin-left: 0%;
+
+
+
+}
+.title{
+    position: absolute;
+    top: 45%;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+.title_curso{
+    font-size: 50px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.avance{
+    font-size: 50px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 768px)  {
+ 
+    .contenedorExterno{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    }
+      
+    .contenedorInterno {
+        max-width: calc(100% - 15px); 
+       
+    }
+    .barrita{
+        background-color: #b6d9d9;
+        width: 100%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .logo{
+        margin-top: 66px;  
+        margin-left: 30px;
+        font-size: 60px;
+        font-family: 'Segoe UI Bold';
+        color: white;
+        width: 60px;
+    }
+       
+    .menu{
+        margin-top: 66px;
+        margin-left: 60px;
+        margin-right: 75px;
+    }
+    
+    
+    .menu ul{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        gap: 20px;
+       
+    }
+    
+    .menu li{
+        list-style: none;
+        margin-left: 5px;
+       
+    }
+    
+    .menu a{
+        font-family: 'Segoe UI Bold';
+        font-weight: bold;
+        font-size: 30px;
+        color: #474747;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:white;
+        
+    }
+    
+    .home-link{
+        color: rgb(4, 17, 22);
+        border: solid;
+        border-color:#4D869C;
+        padding: 10px 20px;
+    
+    
+    }
+    
+    .misCursos{
+        display:flex;
+        flex-direction: column;
+        margin-top: 0%;
+        gap: 10px;
+        width: 800px;
+       
+        background-color:#b6d9d9;
+        
+        padding: 40px;
+    }
+    #img1{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    #img2{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    #img3{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    #img4{
+        margin-left: 0px;
+        width: 100%;
+    }
+    #banner{
+        width: 100%;
+        margin-left: 0%;
+    
+    
+    
+    }
+    .title{
+        position: absolute;
+        top: 35%;
+        font-size: 70px;
+        font-family: 'Courier New', Courier, monospace;
+        color:white;
+    }
+    .title_curso{
+        font-size: 50px;
+        color:white;
+       
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+.avance{
+    font-size: 50px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+}
+@media screen and (min-width: 1400px)  {
+ 
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 15px); 
+   
+}
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+   
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color:#4D869C;
+    padding: 10px 20px;
+
+
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 800px;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+#banner{
+    width: 100%;
+    margin-left: 0%;
+
+
+
+}
+.title{
+    position: absolute;
+    top: 35%;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+.title_curso{
+    font-size: 50px;
+    color:white;
+   
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.avance{
+    font-size: 50px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+}

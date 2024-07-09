@@ -1,0 +1,454 @@
+
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    width: 100%;
+   
+}
+.barrita{
+    background-color: #b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+   
+
+    gap: 10px;
+    width: 100%;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+.curso-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curso-item img {
+    display: block;
+    margin: 8px 0;
+    max-width: 100%;
+    height: auto;
+    margin-left: 250px;
+}
+.curso-title {
+    
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.curso-title:hover {
+    text-decoration: underline;
+}
+
+.title_curso{
+    color: white;
+}
+#remy{
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.text_img{
+    position: absolute;
+    top: 350px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#4D869C;
+    width: 500px;
+    margin-left: 8px;
+}
+.text2_img{
+    position: absolute;
+    top: 550px;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text3_img{
+    position: absolute;
+    top: 470px;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#buscar{
+   padding: 10px;
+   font-size: 15px;
+   margin-left: 5px;
+}
+
+
+#button{
+    background-color:#4D869C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 100;
+    width: 300px;
+    height: 100px;
+    color: white;
+   
+    margin-left: 32%;
+    border: #4D869C;
+    margin-top: 20px;
+    
+}
+#button:hover {
+    background-color:#219C90;
+}
+
+@media screen and (max-width:768px) {
+
+ .contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+      
+.contenedorInterno {
+ max-width: calc(100% - 15px); 
+       
+}
+ .barrita{
+    background-color:#b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;   
+        
+}
+       
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+       
+}
+    
+    
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;   
+       
+}
+    
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+    
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+    
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+    
+}
+    
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 90%;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+       
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+    
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+ 
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+#remy{
+    margin-left: 550px;
+}
+.text_img{
+    position: absolute;
+    top: 55%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#4D869C;
+    width: 500px;
+    margin-left: 8px;
+}
+
+.text2_img{
+    position: absolute;
+    top: 70%;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+    
+.text3_img{
+    position: absolute;
+    top: 80%;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#search{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+ }
+}
+@media screen and (min-width: 1400px) {
+    
+.contenedorExterno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+  
+.contenedorInterno {
+    max-width: calc(100% - 15px); 
+   
+}
+.barrita{
+    background-color:#b6d9d9;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    margin-top: 66px;  
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    width: 60px;
+}
+   
+.menu{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.menu a{
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.home-link{
+    color: rgb(4, 17, 22);
+    border: solid;
+    border-color: #4D869C;
+    padding: 10px 20px;
+
+}
+
+.misCursos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    gap: 10px;
+    width: 90%;
+   
+    background-color:#b6d9d9;
+    
+    padding: 40px;
+}
+#img1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img2{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img3{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#img4{
+    margin-left: 0px;
+    width: 100%;
+}
+#remy{
+    margin-left: 550px;
+}
+.text_img{
+    position: absolute;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#4D869C;
+    width: 500px;
+    margin-left: 8px;
+}
+.text2_img{
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text3_img{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color:#4D869C;;
+    width: 500px;
+    margin-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#search{
+   padding: 10px;
+   font-size: 15px;
+   margin-left: 5px;
+}
+}
